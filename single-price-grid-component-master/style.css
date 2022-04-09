@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(199, 199, 199);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{ 
+    display: grid;
+    grid-template-columns:335px 335px;
+    grid-template-rows: 250px 270px;
+    grid-template-areas:
+    "item-1 item-1"
+    "item-2 item-3";
+    
+}
+.item-1{
+    background-color: #fff;
+    grid-column: item-1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 3rem;
+    /* box-shadow: -3px -3px 8px rgb(114, 112, 112), 3px -3px 8px rgb(114, 112, 112) ; */
+}
+.item-2{
+    background-color:hsl(179, 64%, 41%);
+    grid-area: item-2;
+    padding: 3rem;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    /* box-shadow: 3px 3px 8px rgb(114, 112, 112), -3px 3px 8px rgb(114, 112, 112); */
+}
+.item-3{
+    background-color: hsl(179, 62%, 43%);
+    grid-area: item-3;
+    padding: 3rem 4rem 3rem 2rem;
+    border-bottom-right-radius: 10px;
+    /* box-shadow: 3px 3px 8px rgb(114, 112, 112), 3px 3px 8px rgb(114, 112, 112); */
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.item-1 h1{
+    color: hsl(179, 78%, 33%);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.item-1 .info{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.item-1 .description{
+    color: hsl(218, 22%, 67%);
+}
+h2{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.item-2 .price{
+    font-size: 2rem;
+}
+.item-2 .price span{
+    font-size: 1rem;
+    opacity: 0.5;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    padding: 0.7rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(93, 185, 147);
+}
+.item-3 .description{
+    color: #fff;
+    margin-top: 1rem;
+}
+
+
+@media(max-width:750px){
+    .wrapper{
+        grid-template-areas: 
+        "item-1 item-1"
+        "item-2 item-2"
+        "item-3 item-3";
+        grid-template-columns: 50px;
+        margin: 3rem;
+    }
+}

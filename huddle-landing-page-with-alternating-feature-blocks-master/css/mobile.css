@@ -1,0 +1,50 @@
+@media(max-width:910px)
+{
+    #header-container {
+        background-image: url("../images/bg-hero-mobile.svg");
+    }
+    #header-info{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    #info-text{
+        margin-bottom: 5rem;
+    }
+    #header-illustration{
+        width: 30rem;
+    }
+    .main-items-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-items-container:nth-child(2){
+        flex-direction: column;
+        
+    }
+    .main-illustration{
+        width: 8rem;
+        margin-right: 20rem;
+    }
+    #main-bottom-container{
+        min-width: 20rem;
+        height: auto;
+        top: 4.5rem;
+    }
+    #started-btn{
+        width: 15rem;
+        font-size: auto;
+        height: 2.5rem;
+    }
+    #main-bottom-container h3{
+        text-align: center;
+    }
+    #footer-container{
+        flex-direction: column;
+    }
+    #footer-container ul li{
+        flex-direction: column;
+    }
+}

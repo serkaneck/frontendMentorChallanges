@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+html {
+  font-size: 18px;
+}
+body{
+    min-width: 1410px;
+}
+a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  margin: auto 4rem;
+}
+#header-logo {
+  margin: 9rem auto 5rem auto;
+}
+
+#iso {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: -0.01rem 0.1rem hsl(171, 66%, 29%);
+}
+#mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: -0.01rem 0.1rem hsl(233, 55%, 42%);
+}
+#features-container {
+  margin: 4rem 0 8rem 0;
+}
+#computer-images {
+  position: relative;
+  left: -30px;
+}
+#features {
+  margin: 3rem 0 0 4rem;
+}
+#devices-image {
+  margin: 4.5rem auto;
+}
+#items {
+  margin: 3rem auto;
+}
+#logos {
+  justify-content: space-around;
+  margin: 3rem 0 7rem 0;
+}
+#footer {
+  justify-content: space-around;
+  width: 100%;
+  background-color: hsl(197, 16%, 91%);
+  min-width: 1410px;
+}
+#sub {
+  height: 5rem;
+  flex-wrap: wrap;
+  margin: 2rem 40rem 0 0;
+}
+#sub p {
+  margin-bottom: 1rem;
+}
+#social a {
+  margin: 0 0.5rem;
+}
+#footee-logo{
+    margin-top: 5rem;
+}

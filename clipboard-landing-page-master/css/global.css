@@ -1,0 +1,82 @@
+.display-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-items-center {
+  align-items: center;
+}
+.text-align-center{
+    text-align: center;
+}
+.font-size-092rem{
+    font-size: 0.92rem;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+header {
+  background-size: cover;
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(210, 10%, 33%);
+}
+h1{
+  font-size: 2.15rem;
+}
+h2{
+  font-size: 1.65rem;
+}
+h3{
+    font-size: 1.20rem;
+}
+p {
+  color: hsl(201, 11%, 66%);
+}
+.app-info {
+  width: 35rem;
+  margin: 1rem auto;
+}
+.buttons {
+  justify-content: center;
+  margin: 2rem 0 6rem 0;
+}
+.btn {
+  width: 10rem;
+  height: 2.2rem;
+  border-radius: 2.2rem;
+  border-style: none;
+  color: #fff;
+  letter-spacing: 0.03rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+.features-info{
+    font-size: 0.85rem;
+    width: 18rem;
+    margin: 1rem 0 4rem 0;
+}
+.item{
+    margin: 0 1rem;
+}
+.item p{
+    width: 22rem;
+    margin: 1.2rem auto;
+}
+.item svg{
+    margin-bottom: 2rem;
+}
+#items .item:nth-child(1) svg{
+    margin-bottom: 1.5rem;
+}
+.logo{
+    height: 1.9rem;
+}

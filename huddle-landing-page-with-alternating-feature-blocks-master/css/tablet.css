@@ -1,0 +1,13 @@
+@media (max-width:1380px){
+    #header-info{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #info-text{
+        width: auto;
+    }
+    #info-text p{
+        max-width: none;
+    }
+}

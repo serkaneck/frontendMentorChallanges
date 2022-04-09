@@ -1,0 +1,27 @@
+.btn{
+    border: unset;
+    font: unset;
+    font-weight: bold;
+}
+.main-items-container{
+    width: 85%;
+    /* height: 40%; */
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(226, 226, 226), -0.2rem -0.2rem 1rem rgb(226, 226, 226);
+    border-radius: 0.5rem;
+    padding: 1rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem 3rem 7rem;
+    margin:1rem auto;
+}
+.main-items-container p{
+    color:hsl(208, 11%, 55%);
+    margin-top:1rem;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn:active{
+    opacity: 0.8;
+}
